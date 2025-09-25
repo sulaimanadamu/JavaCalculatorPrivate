@@ -58,6 +58,7 @@ public class Calculator {
             cal.mulFucn(first, second),
             cal.percentageFucn(first, second)
         );
+		
         System.out.println(output);
     }
 }
