@@ -56,7 +56,7 @@ public class Calculator {
             cal.addFucn(first, second), 
             cal.subFucn(first, second), 
             cal.mulFucn(first, second),
-            cal.percentageFucn(first, second)
+            cal.percentageFucn(first, s)
         );
 		
         System.out.println(output);
