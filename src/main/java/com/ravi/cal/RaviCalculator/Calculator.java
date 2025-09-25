@@ -38,7 +38,7 @@ public class Calculator {
         if (first == 0) {
             return "Cannot calculate percentage (division by zero).";
         }
-        double res = ((double) second / (double) first) * 100;
+        double res = ((double) second / (double) first) * 1000;
         return String.format("The first number is %.2f%% of the second number", res);
     }
     
@@ -56,7 +56,7 @@ public class Calculator {
             cal.addFucn(first, second), 
             cal.subFucn(first, second), 
             cal.mulFucn(first, second),
-            cal.percentageFucn(first, s)
+            cal.percentageFucn(first, second)
         );
 		
         System.out.println(output);
