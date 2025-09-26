@@ -60,7 +60,7 @@ public class Calculator {
         );
 		
         System.out.println(output);
-        System.out.print("\n")
-        System.out.println("task completed")
+        System.out.print("\n");
+        System.out.println("task completed");
     }
 }
